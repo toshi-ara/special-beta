@@ -8,18 +8,18 @@ The [Beta function](https://en.wikipedia.org/wiki/Beta_function),
  also called the Euler integral, is defined as
 
 ```math
-\operatorname{Beta}(x,y) = \int_0^1t^{x-1}(1-t)^{y-1}\,\mathrm{d}t
+\mathrm{Beta}(x,y) = \int_0^1t^{x-1}(1-t)^{y-1}\,\mathrm{d}t
 ```
 
 It is related to the [Gamma function](https://en.wikipedia.org/wiki/Gamma_function)
  via the following equation
 
 ```math
-\operatorname{Beta}(x, y) = \dfrac{\Gamma(x)\,\Gamma(y)}{\Gamma(x + y)}
+\mathrm{Beta}(x, y) = \dfrac{\Gamma(x)\,\Gamma(y)}{\Gamma(x + y)}
 ```
 and
 ```math
-\ln \operatorname{Beta}(x,y)= \ln \Gamma(x) + \ln \Gamma(y) - \ln \Gamma(x+y)
+\ln \mathrm{Beta}(x,y)= \ln \Gamma(x) + \ln \Gamma(y) - \ln \Gamma(x+y)
 ```
 
 This package supports both CommonJs and ES Modules.
