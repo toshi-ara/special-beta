@@ -1,11 +1,12 @@
 {
   "name": "@toshiara/special-beta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "beta / natural logarithm beta function library (commonjs/esm)",
   "author": "Toshiaki Ara",
   "license": "MIT",
   "keywords": [
-    "gamma",
+    "beta",
+    "ln beta",
     "typescript",
     "commonjs",
     "esm"
